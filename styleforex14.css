@@ -1,0 +1,27 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Calibri;
+}
+h2 {
+  margin: 15px;
+  color: #3a7d87;
+  font-size: 40px;
+}
+p {
+  margin: 0px 15px 10px 15px;
+  font-size: 16px;
+  text-align: justify;
+}
+div {
+  margin: 15px;
+  border: 2px solid grey;
+}
+.details {
+  text-align: right;
+  color: #3a7d87;
+}
+a:visited {
+    color: #3a7d87; /* Цвет посещенной ссылки */
+}

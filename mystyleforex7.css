@@ -1,0 +1,58 @@
+
+body {
+  text-align: center;
+  font-family: Dubai;
+  color: white;
+  padding: 0px;
+  }
+form {
+    border: 8px solid #48484a;
+    background: #fb3549;
+	padding-bottom: 65px;
+    }
+div {
+  font-size: 60px;
+  font-weight: 700;
+}
+h1 {
+  font-size: 70px;
+  margin: 0;
+  padding: 0;
+}
+h5 {
+  margin: 0;
+  padding: 0;
+  }
+.field {
+  width: 85%;
+  height: 45px;
+  background: #c43947;
+  color: white;
+  border: none;
+}
+#textarea {
+  background: #c43947;
+  width: 85%;
+  height: 80px;
+  border: none;
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+    
+textarea::placeholder {
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#submit {
+  width: 85%;
+  height: 65px;
+  font-size: 20px;
+  color: #fb3549;
+  border-width: 0px 0px 4px 0px;
+  border-bottom-color: #c43947;
+}
