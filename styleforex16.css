@@ -1,0 +1,82 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+form {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+li {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+p {
+  margin: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+label {
+  width: 150px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  box-shadow: inset 0 0 5px #bfbfbf;
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+  padding: 5px 8px;
+}
+textarea {
+  box-shadow: inset 0 0 5px #bfbfbf;
+  border: 1px solid #bfbfbf;
+  border-radius: 2px;
+  padding: 5px 8px;
+}
+.text:focus {
+  width: 220px;
+}
+#message:focus {
+  width: 380px;
+}
+input:invalid {
+  border-color: red;
+  box-shadow: 0 0 5px red;
+  background: #fff url(invalid.png) no-repeat 98% center;
+}
+input:valid {
+  border-color: green;
+  box-shadow: 0 0 5px green;
+  background: #fff url(valid.png) no-repeat 98% center;
+}
+input:disabled {
+  box-shadow: inset 0 0 5px #bfbfbf;
+  border: 1px solid #bfbfbf;
+  border-radius: 3px;
+}
+textarea:focus {
+  border-color: green;
+  box-shadow: 0 0 5px green;
+}
+#submit {
+  color: white;
+  width: 150px;
+  margin-left: 150px;
+  box-shadow: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+  background: -webkit-linear-gradient(top, #68b12f, #50911e);
+  background: -moz-linear-gradient(top, #68b12f, #50911e);
+  background: -ms-linear-gradient(top, #68b12f, #50911e);
+  background: -o-linear-gradient(top, #68b12f, #50911e);
+  background: linear-gradient(top, #68b12f, #50911e);
+  border: 1px solid #5b992b;
+  border-bottom: 1px solid #5b992b;
+}
+#submit:hover {
+  opacity: .85;
+  cursor: pointer; 
+}
