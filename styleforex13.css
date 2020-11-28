@@ -9,8 +9,7 @@ div {
     display: flex;
     justify-content: flex-end;
 }
-
-div ul {
+ul {
     list-style: none;
 }
 
