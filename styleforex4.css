@@ -6,6 +6,6 @@ ul {
 li {
   margin: 10px;
 }
-ol {
+ul {
     list-style-type: square;
 }
