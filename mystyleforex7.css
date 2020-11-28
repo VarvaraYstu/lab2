@@ -6,6 +6,8 @@ body {
   padding: 0px;
   }
 form {
+	width: 50%;
+	margin: auto;
     border: 8px solid #48484a;
     background: #fb3549;
 	padding-bottom: 65px;
